@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Travel site</title>
+
+    <style>
+        .container {
+            border: 10px solid skyblue;
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+        }
+        
+        #travelBody {
+            background: lightblue;
+        }
+        
+        .prgh {
+            font-style: italic;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+        }
+        
+        .miami {
+            font-style: italic;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+
+<body id="travelBody">
+    <div class="container">
+
+        <div class="miami">
+            <h1>Select your dream location...</h1>
+            <h2>Lekki Beach Resort</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRn566UALIm_30ZaWi0ypCqfYf2CYfxVpkkLX0JJFWoXgckUcdQ">
+            <p class="prgh"><strong>Lekki Beach Resort</strong> offers the best of recreational facilities without sacrificing its traditional golfing principles. It is the ideal fun spot for <strong>golfers, leisure seekers and <em>nature lovers</em>.</strong></p>
+            <ul>
+                <li>Visit Lekki Epe resort</li>
+                <li>Go to the Cinema</li>
+                <li>And watch football</li>
+            </ul>
+        </div>
+
+
+        <div class="miami">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsLwE69y04W7Az-r4uu0ey7R3QPRr90Itl8jP2qvDMuO6AQF3L">
+
+            <h2>Miami Beach Florida</h2>
+            <p>All my troubles wash away in the water.</p>
+            <p><strong>Miami Beach</strong> is a south Florida island city, connected by bridges to mainland Miami. Wide beaches stretch from <strong>North Shore Open Space Park</strong>, past palm-lined <strong>Lummus Park to South Pointe Park</strong>.
+                southern end, <strong>South Beach</strong>, is known for its international cachet with<em> models and celebrities,</em> and its early-20th-century architecture in the Art Deco Historic district with pastel-colored buildings,<br> especially
+                on <strong>Ocean Drive</strong>.</p>
+
+            <ul>
+                <li>Catch fun at the Beach.</li>
+                <li>Visit Avalon Building.</li>
+                <li>Visit the Gym house.</li>
+            </ul>
+        </div>
+        <div class="miami">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg/240px-Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg">
+            <h2>Burj Al Arab</h2>
+            <p><strong>Burj Khalifa</strong> is not to be confused with <strong>Burj Al Arab</strong>.<br> <strong>Burj Al Arab</strong> <em>is a 7-stars hotel in Dubai.</em><br> <strong>Burj Khalifa</strong> is <em>not</em> a hotel, it is the tallest building
+                in the world, which does includes <em>5-star hotels, offices, apartments, etc</em>., and is also located in Dubai.</p>
+
+            <ul>
+                <li>Go for Siteseeing tour.</li>
+                <li>Hangout at the Cruise Dinner.</li>
+                <li>Opt for Al Ain City tour.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
