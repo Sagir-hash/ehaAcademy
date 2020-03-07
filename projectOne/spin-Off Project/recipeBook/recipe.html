@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Recipee Book</title>
+    <title>Recipe Book</title>
     <style>
         #body {
             background-color: greenyellow;
@@ -14,15 +14,38 @@
             text-align: center;
         }
         
-        h2 {
+        h2,
+        h3 {
             font-size: medium;
             font-style: italic;
+            font-size: 20px;
         }
         
         .table {
-            border: 2px solid red;
+            border: 2px solid blueviolet;
             height: 20px;
             text-align: center;
+        }
+        
+        th {
+            height: 20px;
+            text-align: center;
+            border: 1px solid red;
+        }
+        
+        td {
+            vertical-align: bottom;
+            height: 25px;
+            border: 1px solid green;
+        }
+        
+        p {
+            font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+        }
+        
+        li {
+            font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
     </style>
 </head>
@@ -31,6 +54,7 @@
     <div class="container">
         <h1>Welcome to Sagir's Food Dictionary</h1>
         <h2>List of todays recipees</h2>
+        <h3>Click below view details...</h3>
         <ul>
             <li><a href="#chicken-stew ">Chicken Stew</a></li>
             <li><a href="#egusi-soup">Egusi Soup</a></li>
