@@ -21,7 +21,7 @@
     <script>
         catImg = document.getElementById("cat-pic");
         var clicker = function() {
-            clicker.innerHTML = "All Cats are <em>lovely!</em>";
+            document.getElementById("cat-chat").textContent += "All Cats are lovely!";
         }
         catImg.addEventListener("click", clicker);
     </script>
